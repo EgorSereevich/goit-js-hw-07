@@ -36,7 +36,6 @@ function onClickListEl(evt) {
     if (e.code === `Escape`) {
       modalEl.removeAttribute("class");
     } else {
-      return;
     }
   }
 }
