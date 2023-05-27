@@ -29,13 +29,4 @@ function onClickListEl(evt) {
           
         />`);
   instance.show();
-  const modalEl = document.querySelector(".basicLightbox");
-
-  const esc = document.addEventListener("keydown", onEskKeydown);
-  function onEskKeydown(e) {
-    if (e.code === `Escape`) {
-      modalEl.removeAttribute("class");
-    } else {
-    }
-  }
 }
